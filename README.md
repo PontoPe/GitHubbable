@@ -1,2 +1,2 @@
 # GitHubbable
-# just me, doing stuff to train
+# just me, doing stuff to practice
