@@ -19,7 +19,7 @@ body {
 
   background-attachment: fixed;
 
-  background-image: url(pic1.png);
+  background-image: url(https://merehead.com/blog/wp-content/uploads/philip-oroni-k9io9BWQTpk-unsplash.jpg);
   background-position: center;
   background-size: cover;
   color: var(--color);
@@ -46,6 +46,8 @@ body {
 h1 {
   font-size: 3rem;
   font-weight: 700;
+  color: wheat;
+  text-shadow: 10px 10px 10px black;
 }
 
 p {
