@@ -12,6 +12,7 @@ class Product:
 def calc_troco(custo, pago):
     #funcao para calcular o troco, retorna uma tupla com a quantidade de notas e moedas
         troco = pago - custo
+        troco2 = pago - custo
         notaCinco = troco // 5
         troco %= 5
         moedaUmR = troco // 1
@@ -21,7 +22,7 @@ def calc_troco(custo, pago):
         moedaDez = troco // 0.1
         troco %= 0.1
         moedaUmC = round(troco / 0.01)
-        return (notaCinco, moedaUmR, moedaVinte, moedaDez, moedaUmC)
+        return (notaCinco, moedaUmR, moedaVinte, moedaDez, moedaUmC, troco2)
 
 class SodaMachine:
     def __init__(self):
@@ -51,7 +52,7 @@ class SodaMachine:
                     else:
                         troco = calc_troco(product.cost, payment)
                         print(f"Vendido {product.name} por ${product.cost}")
-                        print("troco: ")
+                        print(f"troco: {troco[5]}")
                         print(f"notas de 5 reais: {int(troco[0])}")
                         print(f"moedas de 1 real: {int(troco[1])}")
                         print(f"moedas de 20 centavos: {int(troco[2])}")
