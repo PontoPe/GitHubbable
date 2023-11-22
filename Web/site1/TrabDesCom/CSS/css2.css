@@ -1,3 +1,4 @@
+/* https://codepen.io/DuskoStamenic/pen/ZEvBKdw */
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap";
 
 :root {
@@ -9,29 +10,6 @@ body {
   font-family: Poppins, sans-serif;
 }
 
-.button-2 {
-  background-color: rgba(51, 51, 51, 0.05);
-  border-radius: 8px;
-  border-width: 0;
-  color: #333333;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  list-style: none;
-  margin: 0;
-  padding: 10px 12px;
-  text-align: center;
-  transition: all 200ms;
-  vertical-align: baseline;
-  white-space: nowrap;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
 .parallax-container {
   display: flex;
   min-height: 100vh;
@@ -41,7 +19,7 @@ body {
 
   background-attachment: fixed;
 
-  background-image: url(pic1.png);
+  background-image: url(https://merehead.com/blog/wp-content/uploads/philip-oroni-k9io9BWQTpk-unsplash.jpg);
   background-position: center;
   background-size: cover;
   color: var(--color);
@@ -61,13 +39,15 @@ body {
   flex-wrap: wrap;
 
   padding: 6rem 0;
-  background-image: url(pic9.jpg);
+  background-image: url(../PICS/pic9.jpg);
   gap: 1.6em;
 }
 
 h1 {
   font-size: 3rem;
   font-weight: 700;
+  color: wheat;
+  text-shadow: 10px 10px 10px black;
 }
 
 p {
@@ -117,5 +97,5 @@ h3 {
 }
 
 .card:nth-of-type(1) .card-img {
-  background-image: url(pic8.jpg);
+  background-image: url(../PICS/pic8.jpg);
 }

@@ -1,3 +1,4 @@
+/* https://codepen.io/DuskoStamenic/pen/ZEvBKdw */
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap";
 
 :root {
@@ -9,8 +10,6 @@ body {
   font-family: Poppins, sans-serif;
 }
 
-
-
 .parallax-container {
   display: flex;
   min-height: 100vh;
@@ -18,10 +17,9 @@ body {
   align-items: center;
   justify-content: center;
 
-  /*  this is where the magic happens:  */
   background-attachment: fixed;
 
-  background-image: url(https://static.vecteezy.com/system/resources/previews/014/551/287/original/abstract-texture-background-white-and-grey-technology-geometric-technology-modern-hi-tech-digital-technology-concept-vector.jpg);
+  background-image: url(../PICS/ppl.jpg);
   background-position: center;
   background-size: cover;
   color: var(--color);
@@ -32,7 +30,7 @@ body {
 
 .buffer {
   width: 100%;
-  min-height: 60vh;
+  min-height: 20vh;
   background-color: var(--color);
 }
 
@@ -41,8 +39,8 @@ body {
   flex-wrap: wrap;
 
   padding: 6rem 0;
-  background-image: url(https://admin.illo.tv/storage/uploads/2023/02/02/63dbd0384c348vimeo.png);
-  gap: 1.6em;
+  background-image: url(../PICS/ppl.jpg);
+  gap: 1.6em; 
 }
 
 h1 {
@@ -97,17 +95,32 @@ h3 {
 }
 
 .card:nth-of-type(1) .card-img {
-  background-image: url(https://community.nasscom.in/sites/default/files/styles/960_x_600/public/media/images/Picture1_8.png?itok=4YIHRtCq);
-}
-
-.card:nth-of-type(2) .card-img {
-  background-image: url(https://img.freepik.com/premium-photo/technology-background-used-mixed-media-design_42416-511.jpg?w=2000);
-}
-
-.card:nth-of-type(3) .card-img {
-  background-image: url(https://blog.acelerato.com/wp-content/uploads/2016/03/sac.jpg);
-}
-
-.card:nth-of-type(4) .card-img {
-  background-image: url(https://adobe.design/stories/community/media_1de24d3fef332bbbfaa265e2b7bda330385116ac4.jpeg?width=750&format=jpeg&optimize=medium);
-}
+    background-image: url(../PICS/pedro.jpg);
+  }
+  
+  .card:nth-of-type(2) .card-img {
+  background-image: url(../PICS/pic9.jpg);
+  }
+    
+  .card:nth-of-type(3) .card-img {
+  background-image: url(../PICS/joao.jpg);
+  }
+    
+  .card:nth-of-type(4) .card-img {
+  background-image: url(../PICS/icaro.jpg);
+  }
+  
+  .card:nth-of-type(5) .card-img {
+  background-image: url(../PICS/victor.jpg);
+  }
+  
+  .card:nth-of-type(6) .card-img {
+  background-image: url(https://media.licdn.com/dms/image/C4E03AQHztk8CZJ_sBQ/profile-displayphoto-shrink_800_800/0/1520265897307?e=2147483647&v=beta&t=Q-PjshZODadB7YTjCia03U8W3wCJo8jdsmq6jGXzl8E);
+  }
+  
+  .card:nth-of-type(7) .card-img {
+  background-image: url(../PICS/gabriela.jpg);
+  }
+  .card:nth-of-type(8) .card-img {
+    background-image: url(../PICS/leander.jpg);
+  }

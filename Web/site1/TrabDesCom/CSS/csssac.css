@@ -1,30 +1,5 @@
+/* https://codepen.io/DuskoStamenic/pen/ZEvBKdw */
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap";
-
-
-
-/* CSS */
-.button-2 {
-  background-color: rgba(51, 51, 51, 0.05);
-  border-radius: 8px;
-  border-width: 0;
-  color: #333333;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  list-style: none;
-  margin: 0;
-  padding: 10px 12px;
-  text-align: center;
-  transition: all 200ms;
-  vertical-align: baseline;
-  white-space: nowrap;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
 
 :root {
   --color: rgb(63 63 63);
@@ -44,7 +19,7 @@ body {
 
   background-attachment: fixed;
 
-  background-image: url(pic5.png);
+  background-image: url(../PICS/pic1.png);
   background-position: center;
   background-size: cover;
   color: var(--color);
@@ -55,7 +30,7 @@ body {
 
 .buffer {
   width: 100%;
-  min-height: 20vh;
+  min-height: 60vh;
   background-color: var(--color);
 }
 
@@ -64,7 +39,7 @@ body {
   flex-wrap: wrap;
 
   padding: 6rem 0;
-  background-image: url(pic5.png);
+  background-image: url(../PICS/pic9.jpg);
   gap: 1.6em;
 }
 
@@ -120,32 +95,5 @@ h3 {
 }
 
 .card:nth-of-type(1) .card-img {
-    background-image: url(pedro.jpg);
-  }
-  
-  .card:nth-of-type(2) .card-img {
-  background-image: url(pic9.jpg);
-  }
-    
-  .card:nth-of-type(3) .card-img {
-  background-image: url(joao.jpg);
-  }
-    
-  .card:nth-of-type(4) .card-img {
-  background-image: url(icaro.jpg);
-  }
-  
-  .card:nth-of-type(5) .card-img {
-  background-image: url(victor.jpg);
-  }
-  
-  .card:nth-of-type(6) .card-img {
-  background-image: url(https://media.licdn.com/dms/image/C4E03AQHztk8CZJ_sBQ/profile-displayphoto-shrink_800_800/0/1520265897307?e=2147483647&v=beta&t=Q-PjshZODadB7YTjCia03U8W3wCJo8jdsmq6jGXzl8E);
-  }
-  
-  .card:nth-of-type(7) .card-img {
-  background-image: url(gabriela.jpg);
-  }
-  .card:nth-of-type(8) .card-img {
-    background-image: url(leander.jpg);
-  }
+  background-image: url(../PICS/pic8.jpg);
+}

@@ -1,35 +1,14 @@
+/* https://codepen.io/DuskoStamenic/pen/ZEvBKdw */
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap";
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 
 :root {
-  --color: rgb(63 63 63);
+  --color: rgb(63, 63, 63);
 }
 
 body {
   margin: 0;
-  font-family: Poppins, sans-serif;
-}
-
-.button-2 {
-  background-color: rgba(51, 51, 51, 0.05);
-  border-radius: 8px;
-  border-width: 0;
-  color: #333333;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  list-style: none;
-  margin: 0;
-  padding: 10px 12px;
-  text-align: center;
-  transition: all 200ms;
-  vertical-align: baseline;
-  white-space: nowrap;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+  font-family: PT Mono, sans-serif;
 }
 
 .parallax-container {
@@ -41,10 +20,10 @@ body {
 
   background-attachment: fixed;
 
-  background-image: url(https://dev-updates-uploads.s3.ap-south-1.amazonaws.com/1685461746980-ChatGPT%20prompts%20to%20learn%20programming.jpg);
+  background-image: url(../PICS/matrix.jpg);
   background-position: center;
   background-size: cover;
-  color: var(--color);
+  color: rgb(20, 255, 100);
   row-gap: 4rem;
 
   text-align: center;
@@ -53,13 +32,13 @@ body {
 .buffer {
   width: 100%;
   min-height: 60vh;
-  background-color: var(--color);
+  background-color: rgb(63,63,63);
 }
 
 .parallax-container2 {
   flex-direction: row;
   flex-wrap: wrap;
-
+  color: var(--color);
   padding: 6rem 0;
   background-image: url(https://adobe.design/stories/community/media_1de24d3fef332bbbfaa265e2b7bda330385116ac4.jpeg?width=750&format=jpeg&optimize=medium);
   gap: 1.6em;
@@ -117,23 +96,23 @@ h3 {
 }
 
 .card:nth-of-type(1) .card-img {
-  background-image: url(pedro.jpg);
+  background-image: url(../PICS/pedro.jpg);
 }
 
 .card:nth-of-type(2) .card-img {
-background-image: url(leander.jpg);
+background-image: url(../PICS/leander.jpg);
 }
   
 .card:nth-of-type(3) .card-img {
-background-image: url(joao.jpg);
+background-image: url(../PICS/joao.jpg);
 }
   
 .card:nth-of-type(4) .card-img {
-background-image: url(icaro.jpg);
+background-image: url(../PICS/icaro.jpg);
 }
 
 .card:nth-of-type(5) .card-img {
-background-image: url(victor.jpg);
+background-image: url(../PICS/victor.jpg);
 }
 
 .card:nth-of-type(6) .card-img {
@@ -141,5 +120,5 @@ background-image: url(https://media.licdn.com/dms/image/C4E03AQHztk8CZJ_sBQ/prof
 }
 
 .card:nth-of-type(7) .card-img {
-background-image: url(gabriela.jpg);
+background-image: url(../PICS/gabriela.jpg);
 }

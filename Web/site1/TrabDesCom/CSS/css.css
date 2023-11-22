@@ -1,7 +1,8 @@
+/* https://codepen.io/DuskoStamenic/pen/ZEvBKdw */
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap";
 
 :root {
-  --color: rgb(63 63 63);
+  --color: #03132b;
 }
 
 body {
@@ -16,20 +17,30 @@ body {
   align-items: center;
   justify-content: center;
 
+  /*  this is where the magic happens:  */
   background-attachment: fixed;
 
-  background-image: url(https://merehead.com/blog/wp-content/uploads/philip-oroni-k9io9BWQTpk-unsplash.jpg);
+  background-image: url(../PICS/wp.jpg);
   background-position: center;
   background-size: cover;
   color: var(--color);
   row-gap: 4rem;
+
+  text-shadow: 0px 0px 10px #fcedd6;
+  -webkit-text-stroke: #fcedd6 1px;
 
   text-align: center;
 }
 
 .buffer {
   width: 100%;
-  min-height: 60vh;
+  min-height: 10vh;
+  background-color: var(--color);
+}
+
+.buffer:nth-of-type(2) {
+  width: 100%;
+  min-height: 30vh;
   background-color: var(--color);
 }
 
@@ -38,15 +49,14 @@ body {
   flex-wrap: wrap;
 
   padding: 6rem 0;
-  background-image: url(pic9.jpg);
+  background-image: url(../PICS/wp2.jpg);
   gap: 1.6em;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 10rem;
   font-weight: 700;
-  color: wheat;
-  text-shadow: 10px 10px 10px black;
+  -webkit-text-stroke: #fcedd6 2px;
 }
 
 p {
@@ -96,5 +106,17 @@ h3 {
 }
 
 .card:nth-of-type(1) .card-img {
-  background-image: url(pic8.jpg);
+  background-image: url(https://merehead.com/blog/wp-content/uploads/philip-oroni-k9io9BWQTpk-unsplash.jpg);
+}
+
+.card:nth-of-type(2) .card-img {
+  background-image: url(../PICS/matrix.jpg);
+}
+
+.card:nth-of-type(3) .card-img {
+  background-image: url(https://blog.acelerato.com/wp-content/uploads/2016/03/sac.jpg);
+}
+
+.card:nth-of-type(4) .card-img {
+  background-image: url(https://adobe.design/stories/community/media_1de24d3fef332bbbfaa265e2b7bda330385116ac4.jpeg?width=750&format=jpeg&optimize=medium);
 }
