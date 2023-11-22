@@ -19,7 +19,7 @@ body {
 
   background-attachment: fixed;
 
-  background-image: url(https://merehead.com/blog/wp-content/uploads/philip-oroni-k9io9BWQTpk-unsplash.jpg);
+  background-image: url(../PICS/ppl.jpg);
   background-position: center;
   background-size: cover;
   color: var(--color);
@@ -30,7 +30,7 @@ body {
 
 .buffer {
   width: 100%;
-  min-height: 60vh;
+  min-height: 20vh;
   background-color: var(--color);
 }
 
@@ -39,15 +39,13 @@ body {
   flex-wrap: wrap;
 
   padding: 6rem 0;
-  background-image: url(../PICS/pic9.jpg);
-  gap: 1.6em;
+  background-image: url(../PICS/ppl.jpg);
+  gap: 1.6em; 
 }
 
 h1 {
   font-size: 3rem;
   font-weight: 700;
-  color: wheat;
-  text-shadow: 10px 10px 10px black;
 }
 
 p {
@@ -97,5 +95,32 @@ h3 {
 }
 
 .card:nth-of-type(1) .card-img {
-  background-image: url(../PICS/pic8.jpg);
-}
+    background-image: url(../PICS/pedro.jpg);
+  }
+  
+  .card:nth-of-type(2) .card-img {
+  background-image: url(../PICS/pic9.jpg);
+  }
+    
+  .card:nth-of-type(3) .card-img {
+  background-image: url(../PICS/joao.jpg);
+  }
+    
+  .card:nth-of-type(4) .card-img {
+  background-image: url(../PICS/icaro.jpg);
+  }
+  
+  .card:nth-of-type(5) .card-img {
+  background-image: url(../PICS/victor.jpg);
+  }
+  
+  .card:nth-of-type(6) .card-img {
+  background-image: url(https://www.creativefabrica.com/wp-content/uploads/2022/10/25/Person-icon-Graphics-43204353-1.jpg);
+  }
+  
+  .card:nth-of-type(7) .card-img {
+  background-image: url(../PICS/gabriela.jpg);
+  }
+  .card:nth-of-type(8) .card-img {
+    background-image: url(../PICS/leander.jpg);
+  }

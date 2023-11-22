@@ -2,7 +2,7 @@
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap";
 
 :root {
-  --color: rgb(63 63 63);
+  --color: #03132b;
 }
 
 body {
@@ -17,20 +17,30 @@ body {
   align-items: center;
   justify-content: center;
 
+  /*  this is where the magic happens:  */
   background-attachment: fixed;
 
-  background-image: url(../PICS/ppl.jpg);
+  background-image: url(../PICS/wp.jpg);
   background-position: center;
   background-size: cover;
   color: var(--color);
   row-gap: 4rem;
+
+  text-shadow: 0px 0px 10px #fcedd6;
+  
 
   text-align: center;
 }
 
 .buffer {
   width: 100%;
-  min-height: 20vh;
+  min-height: 10vh;
+  background-color: var(--color);
+}
+
+.buffer:nth-of-type(2) {
+  width: 100%;
+  min-height: 30vh;
   background-color: var(--color);
 }
 
@@ -39,19 +49,21 @@ body {
   flex-wrap: wrap;
 
   padding: 6rem 0;
-  background-image: url(../PICS/ppl.jpg);
-  gap: 1.6em; 
+  background-image: url(../PICS/color.png);
+  gap: 1.6em;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 10rem;
   font-weight: 700;
+  -webkit-text-stroke: #fcedd6 2px;
 }
 
 p {
   max-width: 52ch;
   padding: 1em;
   line-height: 1.5;
+  -webkit-text-stroke: none;
 }
 
 a {
@@ -81,7 +93,8 @@ h3 {
 
   padding-bottom: 1rem;
   border-radius: 0.5em;
-
+  stroke: none;
+  -webkit-text-stroke: none;
   background-color: white;
   box-shadow: 0 29px 38px -15px rgb(0 0 0 / 43%);
 }
@@ -95,32 +108,17 @@ h3 {
 }
 
 .card:nth-of-type(1) .card-img {
-    background-image: url(../PICS/pedro.jpg);
-  }
-  
-  .card:nth-of-type(2) .card-img {
-  background-image: url(../PICS/pic9.jpg);
-  }
-    
-  .card:nth-of-type(3) .card-img {
-  background-image: url(../PICS/joao.jpg);
-  }
-    
-  .card:nth-of-type(4) .card-img {
-  background-image: url(../PICS/icaro.jpg);
-  }
-  
-  .card:nth-of-type(5) .card-img {
-  background-image: url(../PICS/victor.jpg);
-  }
-  
-  .card:nth-of-type(6) .card-img {
-  background-image: url(https://media.licdn.com/dms/image/C4E03AQHztk8CZJ_sBQ/profile-displayphoto-shrink_800_800/0/1520265897307?e=2147483647&v=beta&t=Q-PjshZODadB7YTjCia03U8W3wCJo8jdsmq6jGXzl8E);
-  }
-  
-  .card:nth-of-type(7) .card-img {
-  background-image: url(../PICS/gabriela.jpg);
-  }
-  .card:nth-of-type(8) .card-img {
-    background-image: url(../PICS/leander.jpg);
-  }
+  background-image: url(https://merehead.com/blog/wp-content/uploads/philip-oroni-k9io9BWQTpk-unsplash.jpg);
+}
+
+.card:nth-of-type(2) .card-img {
+  background-image: url(../PICS/matrix.jpg);
+}
+
+.card:nth-of-type(3) .card-img {
+  background-image: url(https://blog.acelerato.com/wp-content/uploads/2016/03/sac.jpg);
+}
+
+.card:nth-of-type(4) .card-img {
+  background-image: url(https://adobe.design/stories/community/media_1de24d3fef332bbbfaa265e2b7bda330385116ac4.jpeg?width=750&format=jpeg&optimize=medium);
+}

@@ -1,13 +1,14 @@
 /* https://codepen.io/DuskoStamenic/pen/ZEvBKdw */
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap";
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 
 :root {
-  --color: #03132b;
+  --color: rgb(63, 63, 63);
 }
 
 body {
   margin: 0;
-  font-family: Poppins, sans-serif;
+  font-family: PT Mono, sans-serif;
 }
 
 .parallax-container {
@@ -17,46 +18,35 @@ body {
   align-items: center;
   justify-content: center;
 
-  /*  this is where the magic happens:  */
   background-attachment: fixed;
 
-  background-image: url(../PICS/wp.jpg);
+  background-image: url(../PICS/matrix.jpg);
   background-position: center;
   background-size: cover;
-  color: var(--color);
+  color: rgb(20, 255, 100);
   row-gap: 4rem;
-
-  text-shadow: 0px 0px 10px #fcedd6;
-  -webkit-text-stroke: #fcedd6 1px;
 
   text-align: center;
 }
 
 .buffer {
   width: 100%;
-  min-height: 10vh;
-  background-color: var(--color);
-}
-
-.buffer:nth-of-type(2) {
-  width: 100%;
-  min-height: 30vh;
-  background-color: var(--color);
+  min-height: 60vh;
+  background-color: rgb(63,63,63);
 }
 
 .parallax-container2 {
   flex-direction: row;
   flex-wrap: wrap;
-
+  color: var(--color);
   padding: 6rem 0;
-  background-image: url(../PICS/wp2.jpg);
+  background-image: url(https://adobe.design/stories/community/media_1de24d3fef332bbbfaa265e2b7bda330385116ac4.jpeg?width=750&format=jpeg&optimize=medium);
   gap: 1.6em;
 }
 
 h1 {
-  font-size: 10rem;
+  font-size: 3rem;
   font-weight: 700;
-  -webkit-text-stroke: #fcedd6 2px;
 }
 
 p {
@@ -106,17 +96,29 @@ h3 {
 }
 
 .card:nth-of-type(1) .card-img {
-  background-image: url(https://merehead.com/blog/wp-content/uploads/philip-oroni-k9io9BWQTpk-unsplash.jpg);
+  background-image: url(../PICS/pedro.jpg);
 }
 
 .card:nth-of-type(2) .card-img {
-  background-image: url(../PICS/matrix.jpg);
+background-image: url(../PICS/leander.jpg);
 }
-
+  
 .card:nth-of-type(3) .card-img {
-  background-image: url(https://blog.acelerato.com/wp-content/uploads/2016/03/sac.jpg);
+background-image: url(../PICS/joao.jpg);
+}
+  
+.card:nth-of-type(4) .card-img {
+background-image: url(../PICS/icaro.jpg);
 }
 
-.card:nth-of-type(4) .card-img {
-  background-image: url(https://adobe.design/stories/community/media_1de24d3fef332bbbfaa265e2b7bda330385116ac4.jpeg?width=750&format=jpeg&optimize=medium);
+.card:nth-of-type(5) .card-img {
+background-image: url(../PICS/victor.jpg);
+}
+
+.card:nth-of-type(6) .card-img {
+background-image: url(https://www.creativefabrica.com/wp-content/uploads/2022/10/25/Person-icon-Graphics-43204353-1.jpg);
+}
+
+.card:nth-of-type(7) .card-img {
+background-image: url(../PICS/gabriela.jpg);
 }
