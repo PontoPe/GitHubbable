@@ -4,37 +4,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Curriculo 1</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="PersonalPortfolio02/style.css">
+    <title>Curriculum Pedro Martins</title>
 </head>
 
 <body>
 
-    <div class="container">
-        <div class="glass-container">
-            <nav class="navbar">
-                <div class="logo"><a href="#">PontoPe</a></div>
-                <ul class="nav-links">
-                    <li class="nav-link"><a href="https://github.com/PontoPe">GitHub</a></li>
-                    <li class="nav-link"><a href="https://www.youtube.com/@pontopepe">Youtube</a></li>
-                    <li class="nav-link"><a href="../PersonalPortfolio02/index.html">About</a></li>
-                </ul>
-            </nav>
-            <div class="content">
-                <div class="main">
-                    <h2>Hey! 👋,<br>It's PontoPe</h2>
+    <header>
+        <div id="particles"></div>
+        <div class="info-text">
+            <h1>Pedro Martins</h1>
+            <h3>Software, Full Stack, WEB, and Database Developer based on Brazil.</h3>
+            <a href="#about" class="scroll"><i class='bx bxs-down-arrow'></i></a>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="header">
+            <h1>About Me</h1>
+        </div>
+
+        <div class="card">
+            <img src="PersonalPortfolio02/assets/logo.png">
+            <div class="info">
+                <h1>It's PontoPe</h1>
+                <p>
+                    Under the sudonim PontoPe, i make videos on Youtube about video games, programming, and other interesting topics, where I teach, entertain and share my knowledge with the world.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="header">
+            <h1>Features</h1>
+            <a href="#">See More</a>
+        </div>
+        <div class="feature-cards">
+            <div class="card" onclick="location.href='PersonalPortfolio01/JogoPir.html'">
+                <div class="info">
+                    <i class='bx bx-world'></i>
+                    <h1>Human Languages</h1>
                     <p>
-                        Come figure me out!
+                        I speak Portuguese, English, French, and Italian fluently, and I'm currently learning German and Spanish.
                     </p>
-                    <button onclick="location.href='../site 2/PersonalPortfolio02/index.html'" type="button">Who Am I</button>
                 </div>
-                <div class="image-wrapper">
-                    <img src="image.png">
+            </div>
+        
+            <div class="card" onclick="location.href='PersonalPortfolio01/App.html'">
+                <div class="info">
+                    <i class='bx bx-code-alt'></i>
+
+                    <h1>Programming Languages</h1>
+                    <p>
+                        I have experience with Assembly x86, C, C++, C#, Java, Python, HTML, CSS, JavaScript, PHP, SQL, and I'm currently learning Rust.
+                    </p>
+                </div>
+            </div>
+            <div class="card" onclick="location.href='PersonalPortfolio01/Forca.html'">
+                <div class="info">
+                    <i class='bx bx-code-alt'></i>
+                    <h1>Favorite tools</h1>
+                    <p>
+                        My main OS is Windows, but I am well-versed in MacOS, as well as linux. I use VSCode as my main IDE, and can work with Arduino, and am versatile with my workflow and environment.
+                    </p>
+                </div>
+            </div>
+                    <h1>Education</h1>
+                    <p>
+                        2019 - 2023: Electrical Engineering (UFPR)<br>
+                        2023 - Present: Computer Science (PUC-PR)<br>
+                        2020 - Learn Python 3 (codecademy)<br>
+                        2021 - HTML, CSS, JavaScript (Origamid)<br>
+                        Present - Always eager to learn more from new environments and opportunities!
+                    </p>
+                </div>
+            </div>
+            <div class="card" onclick="location.href='PersonalPortfolio01/MaqSoda.html'">
+                <div class="info">
+                    <i class='bx bx-code-alt'></i>
+                    <h1>Professional Experience</h1>
+                    <p>
+                        2022 - Present: Freelance Programming<br>
+                        2017 - Present: Video Editing
+                    </p>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
+    <button class="scroll-top" onclick="scrollToTop()">
+        <i class='bx bxs-up-arrow'></i>
+    </button>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="PersonalPortfolio02/script.js"></script>
 </body>
 
 </html>
