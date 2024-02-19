@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap');
-
 body {
     height: 100vh;
     width: 100vw;
@@ -58,7 +56,6 @@ body {
     margin-left: 5%;
     top: 10%;
     text-align: left;
-    text-shadow: 10px 0px 10px rgba(0, 0, 0, 1);
   }
 
   #overlay span {
@@ -185,5 +182,7 @@ body {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
   }
+
+
   
   
