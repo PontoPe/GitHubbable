@@ -1,40 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Curriculo 1</title>
+  <meta charset="utf-8">
+  <title>PontoPe</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    main {background-image: url("photos/7.jpg");}
+  </style>
 </head>
 
-<body>
+<main>
 
-    <div class="container">
-        <div class="glass-container">
-            <nav class="navbar">
-                <div class="logo"><a href="#">PontoPe</a></div>
-                <ul class="nav-links">
-                    <li class="nav-link"><a href="https://github.com/PontoPe">GitHub</a></li>
-                    <li class="nav-link"><a href="https://www.youtube.com/@pontopepe">Youtube</a></li>
-                    <li class="nav-link"><a href="PersonalPortfolio02/index.html">About</a></li>
-                </ul>
-            </nav>
-            <div class="content">
-                <div class="main">
-                    <h2>Hey! 👋,<br>It's PontoPe</h2>
-                    <p>
-                        Come figure me out!
-                    </p>
-                    <button onclick="location.href='PersonalPortfolio02/index.html'" type="button">Who Am I</button>
-                </div>
-                <div class="image-wrapper">
-                    <img src="image.png">
-                </div>
-            </div>
-        </div>
+    <script src="script.js"></script>
+    <div id="overlay-back"></div>
+    <div id="overlay-back-2"></div>
+
+    <div id="overlay">
+      <p>Projects by</p>
+      <span>PontoPe</span>
     </div>
 
-</body>
+</main>
+<body></body>
+<nav>
+  <div id="nav-links">
+    <a class="nav-link" href="SubSites/pirate.html">
+      <h2 class="nav-link-label rubik-font">Pirate Game</h2>
+      <img class="nav-link-image" src="photos/1.jpg" />
+    </a>
+    <a class="nav-link" href="SubSites/multimedia.html">
+      <h2 class="nav-link-label rubik-font">Multimedia App</h2>
+      <img class="nav-link-image" src="photos/3.jpg" />
+    </a>
+    <a class="nav-link" href="SubSites/hangman.html">
+      <h2 class="nav-link-label rubik-font">Hangman</h2>
+      <img class="nav-link-image" src="photos/5.jpg"/>
+    </a>
+    <a class="nav-link" href="SubSites/detective.html">
+      <h2 class="nav-link-label rubik-font">Detective</h2>
+      <img class="nav-link-image" src="photos/4.jpg" />
+    </a>
+    <a class="nav-link" href="SubSites/sodapy.html">
+      <h2 class="nav-link-label rubik-font">Soda Machine (Python3)</h2>
+      <img class="nav-link-image" src="photos/3.jpg"/>
+    </a>
+    <a class="nav-link" href="SubSites/sodago.html"></a>
+      <h2 class="nav-link-label rubik-font">Soda Machine (Golang)</h2>
+      <img class="nav-link-image" src="photos/1.jpg"/>
+    </a>
+    </div>
+</nav>
 
-</html>
+<button id="nav-toggle" type="button" onclick="toggleNav()">
+  <i class="open fa-light fa-bars-staggered"></i>
+  <i class="close fa-light fa-xmark-large"></i>
+</button>
