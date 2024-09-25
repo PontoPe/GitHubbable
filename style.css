@@ -54,7 +54,7 @@ body {
     color: rgb(244, 207, 181) ;
     margin: 0px;
     margin-left: 5%;
-    top: 10%;
+    top: 20%;
     text-align: left;
   }
 
@@ -118,7 +118,6 @@ body {
     color: white;
     font-size: 1.25rem;
     margin: 0rem;
-    text-transform: uppercase;
   }
   
   #nav-links > .nav-link > .nav-link-image {
