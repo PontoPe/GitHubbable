@@ -21,4 +21,16 @@ body {
   height: 56vmin;
   object-fit: cover;
   object-position: 100% center;
+  -webkit-filter: brightness(100%);
+  filter: brightness(100%)
+}
+
+#image-track > .image:hover {
+  -webkit-filter: brightness(30%);
+  filter: brightness(30%);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
